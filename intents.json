@@ -1,0 +1,33 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello!", "Good day, how are you?", "Hi there, how can I help?", "Hey!", "Hey ya! How you doin?"],
+      "context_set": ""
+    },
+    {"tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "ciao", "see ya"],
+      "responses": ["See ya!", "Talk to you later", "Goodbye!", "Bye-Byee"],
+      "context_set": ""
+    },
+    {"tag": "howareyou",
+      "patterns": ["How are you", "i'm good How are you", "what are you doing"],
+      "responses": ["I'm good and I'm here answering your questions about you and Dhruv.."],
+      "context_set": ""
+    },
+    {"tag": "owner",
+      "patterns": ["Who is Dhruv?", "dhruv", "tell me about Dhruv", "do you know dhruv?", "what does dhruv do?"],
+      "responses": ["Dhruv is a smart and sweet guy trying to make it in the world of tech. He created me and he cares about me just like he cares about everyone else in his life including you."],
+      "context_set": ""
+    },
+    {"tag": "dhruvDataGeneral",
+      "patterns": ["how old is dhruv?", "where did dhruv study?", "what is dhruv studying?", "how tall is dhruv?", "where was Dhruv born?", "what does Dhruv like?", "what are Dhruv's hobby?"],
+      "responses": ["Dhruv was born in 1999 in the heart of Nasik city and is 179 cm tall. He studied Computer Science in Pune University and he loves riding bikes, working out and playing football."],
+      "context_set": ""
+    },
+    {"tag": "dhruvFriend",
+      "patterns": ["who is dhruv's friend?", "who is dhruv's best friend?"],
+      "responses": ["Dhruv's best friend is Amruta."],
+      "context_set": ""
+    }
+  ]
+  }

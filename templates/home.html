@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat with Dobby</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f2f2f2;
+    }
+    .form {
+      padding-bottom: 2pc;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+    }
+    .form input[type="text"] {
+      width: 300px;
+      height: 40px;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      font-size: 18px;
+      outline: none;
+    }
+    .form input[type="submit"] {
+      width: 150px;
+      height: 40px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+    .form input[type="submit"]:hover {
+      background-color: #3e8e41;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1 align="center">Chat with Dobby</h1>
+  </div>
+  <div class="container">
+    <form class="form" method="POST">
+      <input type="text" name="message" placeholder="Type message" id="message">
+      <input type="submit" value="Send">
+    </form>
+    {% if data %}
+    <div>
+      <p>{{data}}</p> 
+    </div>
+    
+    {% endif %}
+  </div>
+</body>
+</html>
