@@ -9,9 +9,9 @@
       "responses": ["See ya!", "Talk to you later", "Goodbye!", "Bye-Byee"],
       "context_set": ""
     },
-    {"tag": "howareyou",
-      "patterns": ["How are you", "i'm good How are you", "what are you doing"],
-      "responses": ["I'm good and I'm here answering your questions about you and Dhruv.."],
+    {"tag": "bot",
+      "patterns": ["How are you", "i'm good How are you", "who are you", "what are you", "what is your name"],
+      "responses": ["I'm Dobby the bot and I'm here to answer your questions about you and Dhruv.."],
       "context_set": ""
     },
     {"tag": "owner",
@@ -22,11 +22,6 @@
     {"tag": "dhruvDataGeneral",
       "patterns": ["how old is dhruv?", "where did dhruv study?", "what is dhruv studying?", "how tall is dhruv?", "where was Dhruv born?", "what does Dhruv like?", "what are Dhruv's hobby?"],
       "responses": ["Dhruv was born in 1999 in the heart of Nasik city and is 179 cm tall. He studied Computer Science in Pune University and he loves riding bikes, working out and playing football."],
-      "context_set": ""
-    },
-    {"tag": "dhruvFriend",
-      "patterns": ["who is dhruv's friend?", "who is dhruv's best friend?"],
-      "responses": ["Dhruv's best friend is Amruta."],
       "context_set": ""
     }
   ]
